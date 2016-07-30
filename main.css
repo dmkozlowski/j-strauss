@@ -52,6 +52,10 @@
   p.caption {
     font-size: 10px !important;
   }
+
+  p.caption a {
+    font-size: 10px !important;
+  }
 }
 
 body {
@@ -149,11 +153,6 @@ article p a:hover {
   text-decoration: underline;
 }
 
-section#home-audio {
-  text-align:center;
-  display: block;
-}
-
 div#media {
   padding: 3%;
   margin-top: 5%;
@@ -218,6 +217,11 @@ p.caption a {
   text-decoration: underline;
 }
 
+p.caption a:hover {
+  color: rgb(182, 155, 185);
+  text-decoration: underline;
+}
+
 /* FOOTER */
 .footer {
   background-color: rgba(49, 59, 69, .6);
@@ -233,5 +237,10 @@ footer #identifier {
 
 footer a {
   color: white;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: rgb(182, 155, 185);
   text-decoration: underline;
 }
